@@ -1,1 +1,62 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.searchbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+::-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 1.1em;
+  text-align: right;
+  padding-right: 1vw;
+}
+
+svg {
+  color: black;
+  font-size: 1.2em;
+}
+/*# sourceMappingURL=style.css.map */
