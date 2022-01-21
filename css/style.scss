@@ -61,15 +61,11 @@ ul{
     display: grid;
     grid-template-columns: repeat(3, 24vw);
     grid-template-rows: repeat(3, 24vw);
-    gap: 2vw 2vw;
+    gap: 2vw 3vw;
     margin-right: 10vw;
     margin-left: 10vw;
     margin-top: 6vw;
     margin-bottom: 6vw;
-}
-
-.picture{
-    border: 1px solid black; 
 }
 
 img{
@@ -77,14 +73,18 @@ img{
     height: 100%;
     object-fit: cover;
 }
-
-.overlay{
-    
-    text-align: center;
+.overlay {
+    margin-top: -6.5vw;
     background-color: black;
     opacity: 0.7;
     color: white;
-    ;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 6vw;
+    font-size: 1.2vw;
 }
-
-    
