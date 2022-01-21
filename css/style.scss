@@ -1,3 +1,6 @@
+@import "partials/variables";
+
+
 p{
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
@@ -13,6 +16,7 @@ p{
     margin-bottom: 2vw;
     margin-right: 2vw;
     margin-left: 2vw;
+    
 
 }
 
@@ -58,9 +62,15 @@ ul{
     border: 3px solid grey;
     border-left: none;
     border-right: none;
-    
+}
 
+.container{
+    display: flexbox;
 
+}
+
+.picture{
+    border: 1px solid black;
 }
 
     

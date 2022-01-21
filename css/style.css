@@ -92,4 +92,12 @@ ul {
   border-left: none;
   border-right: none;
 }
+
+.container {
+  display: flexbox;
+}
+
+.picture {
+  border: 1px solid black;
+}
 /*# sourceMappingURL=style.css.map */
