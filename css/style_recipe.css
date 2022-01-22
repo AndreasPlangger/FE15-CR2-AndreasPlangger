@@ -25,8 +25,8 @@ li {
   display: grid;
   -ms-grid-columns: (38vw)[2];
       grid-template-columns: repeat(2, 38vw);
-  -ms-grid-rows: (5w)[6];
-      grid-template-rows: repeat(6, 5w);
+  -ms-grid-rows: (5vw)[6];
+      grid-template-rows: repeat(6, 5vw);
   -webkit-column-gap: 5vw;
           column-gap: 5vw;
 }

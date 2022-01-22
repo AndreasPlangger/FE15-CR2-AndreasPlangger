@@ -20,7 +20,7 @@ li {
 .ingredient{
     display: grid;
     grid-template-columns: repeat(2, 38vw);
-    grid-template-rows: repeat(6, 5w);
+    grid-template-rows: repeat(6, 5vw);
     column-gap: 5vw;
 }
 
