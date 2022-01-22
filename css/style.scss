@@ -56,6 +56,10 @@ ul{
     border-left: none;
     border-right: none;
 }
+.navbarlink{
+    text-decoration: none;
+    color: black;
+}
 
 .container{
     display: grid;
@@ -94,7 +98,7 @@ footer{
     // margin-left: 2vw;
     // margin-right: 2vw;
 }
-.links{
+.footerlink{
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;

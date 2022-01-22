@@ -88,6 +88,11 @@ ul {
   border-right: none;
 }
 
+.navbarlink {
+  text-decoration: none;
+  color: black;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
@@ -140,7 +145,7 @@ footer {
   color: white;
 }
 
-.links {
+.footerlink {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

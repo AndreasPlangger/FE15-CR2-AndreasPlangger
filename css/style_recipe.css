@@ -1,0 +1,71 @@
+.container {
+  font-family: 'Times New Roman', Times, serif;
+  width: 720px;
+  margin: auto;
+  -webkit-box-shadow: 0 px 0px 4px #00051b, 2px 0px 8px #1e3101;
+          box-shadow: 0 px 0px 4px #00051b, 2px 0px 8px #1e3101;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+p {
+  color: #707070;
+  margin-top: 1vw;
+  margin-bottom: 0.7vw;
+}
+
+li {
+  color: #707070;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ingredient {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (38vw)[2];
+      grid-template-columns: repeat(2, 38vw);
+  -ms-grid-rows: (5w)[6];
+      grid-template-rows: repeat(6, 5w);
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  color: #94203d;
+  padding-top: 4vw;
+}
+
+h2 {
+  color: #3998A3;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+h3 {
+  color: #474747;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+
+footer {
+  text-align: center;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 2vw;
+}
+
+.rating {
+  text-align: center;
+  color: #F4B400;
+  font-size: 2.3vw;
+}
+/*# sourceMappingURL=style_recipe.css.map */
