@@ -1,25 +1,11 @@
-// iPad Pro 12.9"
-@media screen and (max-width: 1366px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-  }
-// Galaxy Tab S
-@media screen and (max-width: 1280px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-  }
-// Mobile
-
-
 p{
     font-family: 'Great Vibes', cursive;
-    font-size: 30px;
+    font-size: 4.5vw;
     font-weight: bold;
     margin:0px;
+}
+#recipe{
+    font-size: 2vw;
 }
 
 .searchbar{
@@ -66,6 +52,7 @@ ul{
     border: 3px solid grey;
     border-left: none;
     border-right: none;
+    font-size: 2.8vw;
 }
 .navbarlink{
     text-decoration: none;
@@ -147,6 +134,14 @@ h5{
     margin-bottom: 0vw;
 }
 
+
+// Galaxy Tab S
+@media screen and (max-width: 1280px) {
+    .main {
+        
+    }
+  }
+// Mobile
 @media screen and (max-width: 480px) {
     
     .container{
@@ -159,5 +154,8 @@ h5{
         margin-top: 6vw;
         margin-bottom: 6vw;
     }
+    .imageoverlay{
+        height: auto;
+        width: 75vw;}
     
     }
