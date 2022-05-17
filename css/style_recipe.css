@@ -38,19 +38,19 @@ header {
 h1 {
   font-family: 'Great Vibes', cursive;
   color: #94203d;
-  padding-top: 4vw;
+  padding-top: 4vh;
 }
 
 h2 {
   color: #3998A3;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 h3 {
   color: #474747;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 footer {
