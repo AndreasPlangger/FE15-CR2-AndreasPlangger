@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food BLog</title>
+    <title>Food Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,88 +14,87 @@
 
 <body>
     <div class="main">
-        <div class="searchbar">
-            <p>Food blog</p>
-            <div>
-                <input id="recipe" type="text" placeholder="Recipes">
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                    class="bi bi-search" viewBox="0 0 16 16">
-                    <path
-                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                </svg>
-            </div>
+        <div class="navbar__search">
+            <p class="brand-name">Food blog</p>
+            <input type="search" name="recipes" class="search-field" placeholder="Search recipe">
+            <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
         </div>
 
-        <div class="navbar">
+        <div class="navbar__links">
             <ul>
-                <li><a class="navbarlink" href="linkpages/pasta.html" target="_blank">Pasta</a></li>
-                <li><a class="navbarlink" href="linkpages/taco.html" target="_blank">Taco</a></li>
-                <li><a class="navbarlink" href="linkpages/pizza.html" target="_blank">Pizza</a></li>
-                <li><a class="navbarlink" href="linkpages/dessert.html" target="_blank">Dessert</a></li>
-                <li><a class="navbarlink" href="linkpages/breakfast.html" target="_blank">Breakfast</a></li>
-                <li><a class="navbarlink" href="linkpages/lunch.html" target="_blank">Lunch</a></li>
-                <li><a class="navbarlink" href="linkpages/dinner.html" target="_blank">Dinner</a></li>
-                <li><a class="navbarlink" href="linkpages/recipe.html" target="_blank">More!</a></li>
+                <li><a class="navbar__link" href="linkpages/pasta.html" target="_blank">Pasta</a></li>
+                <li><a class="navbar__link" href="linkpages/taco.html" target="_blank">Taco</a></li>
+                <li><a class="navbar__link" href="linkpages/pizza.html" target="_blank">Pizza</a></li>
+                <li><a class="navbar__link" href="linkpages/dessert.html" target="_blank">Dessert</a></li>
+                <li><a class="navbar__link" href="linkpages/breakfast.html" target="_blank">Breakfast</a></li>
+                <li><a class="navbar__link" href="linkpages/lunch.html" target="_blank">Lunch</a></li>
+                <li><a class="navbar__link" href="linkpages/dinner.html" target="_blank">Dinner</a></li>
+                <li><a class="navbar__link" href="linkpages/recipe.html" target="_blank">More!</a></li>
             </ul>
         </div>
 
-        <div class="container">
-            <div class="imageoverlay">
+        <div class="food-items">
+            <div class="food-items__overlay">
                 <img src="https://cdn.pixabay.com/photo/2017/08/05/12/32/flat-lay-2583212_1280.jpg" alt="Egg salad">
-                <div class="overlay">Easy<br>Egg Salad</div>
+                <div class="food-items__overlay__label">Easy<br>Egg Salad</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1547584370-2cc98b8b8dc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                     alt="Cheeseburger">
-                <div class="overlay">Dessert<br>Cheeseburger</div>
+                <div class="food-items__overlay__label">Dessert<br>Cheeseburger</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1607290817806-e93c813ff329?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="Pizza">
-                <div class="overlay">Pizza<br>Pizza</div>
+                <div class="food-items__overlay__label">Pizza<br>Pizza</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1612182062966-c8fe45ecbf73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                     alt="Pancakes">
-                <div class="overlay">Dessert<br>Pancakes</div>
+                <div class="food-items__overlay__label">Dessert<br>Pancakes</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1094&q=80"
                     alt="Zucchini pasta">
-                <div class="overlay">Pasta<br>Zucchini pasta</div>
+                <div class="food-items__overlay__label">Pasta<br>Zucchini pasta</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://cdn.pixabay.com/photo/2017/08/05/12/32/flat-lay-2583212_1280.jpg" alt="Egg salad">
-                <div class="overlay">Easy<br>Egg Salad</div>
+                <div class="food-items__overlay__label">Easy<br>Egg Salad</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1618258033827-6c0da0393a5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2487&q=80"
                     alt="Fruit Cereals">
-                <div class="overlay">Breakfast<br>Fruit Cereals</div>
+                <div class="food-items__overlay__label">Breakfast<br>Fruit Cereals</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=951&q=80"
                     alt="Dessert Red Velvet Cake">
-                <div class="overlay">Dessert<br>Red Velvet Cake</div>
+                <div class="food-items__overlay__label">Dessert<br>Red Velvet Cake</div>
             </div>
-            <div class="imageoverlay">
+            <div class="food-items__overlay">
                 <img src="https://cdn.pixabay.com/photo/2017/08/05/12/32/flat-lay-2583212_1280.jpg" alt="Egg salad">
-                <div class="overlay">Easy<br>Egg Salad</div>
+                <div class="food-items__overlay__label">Easy<br>Egg Salad</div>
             </div>
         </div>
 
         <footer>
             <div>
-                <ul class="footerlink">
-                    <li></li><a class="linkss" href="">About</a>
-                    <li class="divide"></li><a class="linkss" href="linkpages/recipe.html" target="_blank">Recipes</a>
-                    <li class="divide"></li><a class="linkss" href="">FAQ</a>
-                    <li class="divide"></li><a class="linkss" href="https://codefactory.wien/en/contact-en/"
+                <ul class="footer__links">
+                    <a class="footer_link" href="">About</a>
+                    <li class="vertical-line"></li><a class="footer_link" href="linkpages/recipe.html"
+                        target="_blank">Recipes</a>
+                    <li class="vertical-line"></li><a class="footer_link" href="">FAQ</a>
+                    <li class="vertical-line"></li><a class="footer_link" href="https://codefactory.wien/en/contact-en/"
                         target="_blank">Contact us</a>
                 </ul>
             </div>
 
-            <div class="icon">
+            <div class="footer__social-media-icons">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-instagram" viewBox="0 0 16 16">
                     <path
@@ -112,7 +111,7 @@
                         d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                 </svg>
             </div>
-            <div class="disclaim">
+            <div class="footer__disclaimer">
                 <h5>Copyright <span>&COPY;</span> Andreas Plangger</h5>
             </div>
         </footer>
