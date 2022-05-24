@@ -1,42 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-<style>
-    h1 {
-    color: rgba(16, 224, 103, 0.548);
-}
-footer{
-    color: rgb(0, 0, 0);
-    padding-bottom: 0.5vw;
-    width: 100%;    
-}
-.footerlink{  
-    text-decoration: none;
-    color:white;
-}
-.linkss{
-    text-decoration: none;
-    color: black;
-    font-size: 2vw;
-    padding-left: 6vw;
-    padding-right: 6vw;
-}
-</style>
+    <style>
+        .product {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: rgba(27, 198, 228, 0.548);
+        }
+
+        .footer__links {
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer_link {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+        .vertical-line {
+            border-right: 2px solid black;
+            padding-right: 1vw;
+            margin-right: 1vw;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="product">
         <h1>We love Lunch!</h1>
         <img src="https://cdn.pixabay.com/photo/2017/03/27/13/54/bread-2178874__480.jpg" alt="Lunch">
-    <footer>
-        <div>
-            <ul class="footerlink">
-                <li></li><a class= "linkss" href="">About</a>
-                <li></li><a class= "linkss" href="https://codefactory.wien/en/contact-en/" target="_blank">Contact us</a>
+        <footer>
+            <ul class="footer__links">
+                <li></li><a class="footer_link" href="">About</a>
+                <li class="vertical-line"></li><a class="footer_link" href="https://codefactory.wien/en/contact-en/"
+                    target="_blank">Contact
+                    us</a>
             </ul>
-        </div>
-    </footer>
+        </footer>
+    </div>
+
 </body>
+
 </html>
